@@ -97,8 +97,7 @@ jobs:
 
       - name: Install Balena CLI
         run: |
-          npm install -g --unsafe-perm @balena/cli
-
+          npm install -g balena-cli
 
 
       - name: Login to Balena
