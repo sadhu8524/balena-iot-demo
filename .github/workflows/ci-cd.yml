@@ -108,4 +108,4 @@ jobs:
 
       - name: Deploy to Balena
         run: |
-          balena push balena-iot-demo
+          balena push felfel-demo
