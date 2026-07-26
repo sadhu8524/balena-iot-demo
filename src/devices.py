@@ -13,7 +13,7 @@ class BaseDevice:
 
         self.battery = random.randint(80, 100)
 
-        self.wifi_signal = random.randint(-45, -65)
+        self.wifi_signal = random.randint(-65, -45)
 
 
     def timestamp(self):
