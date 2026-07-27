@@ -83,7 +83,8 @@ services:
 
     environment:
       INFLUX_TOKEN: ${INFLUX_TOKEN}
-
+      MQTT_USERNAME: ${MQTT_USERNAME}
+      MQTT_PASSWORD: ${MQTT_PASSWORD}
 ###############################################################################
 # GRAFANA
 ###############################################################################
